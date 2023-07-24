@@ -1,9 +1,5 @@
 #include "sort.h"
 
-void swap_integers(int *num1, int *num2);
-int lomuto_partition(int *array, size_t size, int left, int right);
-void lomuto_sort(int *array, size_t size, int low, int high);
-
 /**
  * swap_integers - Swap two integers in an array.
  * @num1: The first integer to swap.
