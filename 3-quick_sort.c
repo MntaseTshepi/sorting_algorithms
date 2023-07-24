@@ -3,7 +3,6 @@
 void swap_integers(int *num1, int *num2);
 int lomuto_partition(int *array, size_t size, int left, int right);
 void lomuto_sort(int *array, size_t size, int low, int high);
-void quick_sort(int *array, size_t size);
 
 /**
  * swap_integers - Swap two integers in an array.
