@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
  * bubble_sort - Sorts an array of integers in ascending order
  * using Bubble Sort.
@@ -12,6 +13,7 @@
  *
  * Return: This function does not return a value.
  */
+
 void bubble_sort(int *array, size_t size)
 {
 	size_t n, i;
@@ -23,16 +25,10 @@ void bubble_sort(int *array, size_t size)
 			break;
 
 		swapped = 0;
-		/*
-		 * Last i elements are already in place,
-		 * so we don't need to compare them
-		 */
+
 		for (i = 0; i < size - n - 1; i++)
 		{
-			/*
-			 * If the current element is greater than the next
-			 * element, swap them
-			 */
+
 			if (array[i] > array[i + 1])
 			{
 				temp = array[i];
